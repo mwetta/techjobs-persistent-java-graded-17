@@ -10,6 +10,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
 
+// TODO 3.2.1 Add a private field of EmployerRepository type called employerRepository; annotate with @Autowired
+// TODO 3.2.2 Add an index method that responds at /employers with a list of all employers in the database using template employers/index
+// TODO 3.2.3 Use employerRepository and the appropriate method to save a valid object
+// TODO 3.2.4 Replace the null under optEmployer using findById() method with the correct argument to look for the given employer object from the data layer; This variable is provided in the controller method's parameters
 @Controller
 @RequestMapping("employers")
 public class EmployerController {

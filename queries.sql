@@ -1,4 +1,5 @@
 --Part 1
+-- id, employer, name, skills
 
 --Part 2
 
