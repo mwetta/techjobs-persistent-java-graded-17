@@ -7,4 +7,5 @@ WHERE city = 'St. Louis City';
 
 --Part 3
 
+DROP TABLE jobs;
 --Part 4

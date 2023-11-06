@@ -328,7 +328,7 @@ public class TestTaskTwo extends AbstractTest {
     }
 
     // --- END DATA LAYER TESTS --- //
-    //TODO 2.4.1 Uncomment out Controller tests - refer to WARNING
+    //2.4.1 Uncomment out Controller tests - refer to WARNING
     // --- BEGIN CONTROLLER TESTS --- //
 
     /*
