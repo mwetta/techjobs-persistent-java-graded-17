@@ -20,7 +20,7 @@ public class EmployerController {
     @Autowired
     private EmployerRepository employerRepository;
 
-    @GetMapping
+    @GetMapping("/")
     public String displayAllEmployers(Model model){
         model.addAttribute("employers", employerRepository.findAll());
         return "employers/index";
@@ -47,7 +47,6 @@ public class EmployerController {
 
     @GetMapping("view/{employerId}")
     public String displayViewEmployer(Model model, @PathVariable int employerId) {
-
         Optional optEmployer = employerRepository.findById(employerId);
         if (optEmployer.isPresent()) {
             Employer employer = (Employer) optEmployer.get();
@@ -56,6 +55,5 @@ public class EmployerController {
         } else {
             return "redirect:../";
         }
-
     }
 }

@@ -9,3 +9,4 @@ WHERE city = 'St. Louis City';
 
 DROP TABLE jobs;
 --Part 4
+SELECT jobs_skills

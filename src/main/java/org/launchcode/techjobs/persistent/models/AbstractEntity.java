@@ -14,8 +14,6 @@ public abstract class AbstractEntity {
     @GeneratedValue
     private int id;
 
-    @NotNull
-    @Size(min=2, max=240)
     private String name;
 
     public int getId() {
